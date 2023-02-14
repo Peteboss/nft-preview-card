@@ -1,0 +1,146 @@
+:root{
+    --clr-primary-100: hsl(215, 51%, 70%);
+    --clr-primary-200: hsl(178, 100%, 50%);
+
+    --clr-neutral-100: hsl(217, 54%, 11%);
+    --clr-neutral-200: hsl(216, 50%, 16%);
+    --clr-neutral-300: hsl(215, 32%, 27%);
+    --clr-neutral-400: hsl(0, 0%, 100%);
+
+    --ff-base: 'Outfit';
+
+    --fw-regular: 300;
+    --fw-semi-regular: 400;
+    --fw-bold: 600; 
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{  margin: 0;
+    padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+body{
+    background-color: var(--clr-neutral-100);
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-400);
+    font-family: var(--ff-base);
+
+    display: grid;
+    place-content: center;
+}
+
+.showcase{
+    background: var(--clr-neutral-200);
+    margin: 4rem 1.5rem;
+    border-radius: .5rem;
+}
+
+.preview{
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-width: 400px;
+}
+
+.crystal{
+    padding: 1.5rem;
+}
+
+.crystal img{
+    border-radius: .5rem;
+}
+
+.equilibrium{
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: var(--fw-bold);
+}
+
+
+.listing{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+    line-height: 1.3;
+    color: var(--clr-primary-100);
+    font-weight: var(--fw-semi-regular);
+}
+.flex__wrap{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: var(--clr-primary-100);
+    margin-right: .4rem;
+}
+
+hr{
+    border-width: 0;
+    height: 1px;
+    margin: 0 1.5rem;
+    background: var(--clr-neutral-300);
+}
+
+.ethereum{
+    display: flex;
+    gap: .3rem;
+}
+
+.price{
+    color: var(--clr-primary-200);
+}
+.timing{
+    display: flex;
+    gap: .5rem;
+}
+
+.duration{
+    color: var(--clr-primary-100);
+}
+
+.img__wrap{
+    display: flex;
+    margin: 0 1.5rem;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.avatar{
+    width: 10%;
+    border: 1px white solid;
+    border-radius: 50%;
+}
