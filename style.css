@@ -144,3 +144,11 @@ hr{
     border: 1px white solid;
     border-radius: 50%;
 }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
